@@ -12,4 +12,6 @@ if (activo){
 */
 
 const mensaje = (activo) ? 'Activo' : 'Inactivo'
+
+
 console.log(mensaje)

@@ -16,12 +16,12 @@ const [letras , numeros] = retornaArreglo();
 
 console.log(letras,numeros);
 
-const asd = (nombre) =>{
+const usState = (nombre) =>{
     return [nombre, ()=>{console.log('Hola Mundo')}];
 
 }
 
-const [nombre, setNombre] = asd('Goku');
+const [nombre, setNombre] = usState('Goku');
 
 console.log(nombre);
 setNombre();
